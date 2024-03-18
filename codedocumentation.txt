@@ -1,0 +1,20 @@
+Code Documentation for "The Series Analyzer":
+
+
+
+
+** In MAX,MIN,SUM,AVERAGE,NUMBEROFELEMENTS,SUM function we already made sure that the array and its values are valid, so we dont make these validations inside the functions.
+
+* MAX function: This function gets the whole array as input ( external argument ) and using "for" loop find the maximum integer value in the array.
+		The function initialized with the value max=0, then it compares it with every element in the series. If the element is greater than the variable's "max" value, max gets 
+		the same element value.
+
+* MIN function: This function gets the whole array as input ( external argument ) and using "for" loop find the minimum integer value in the array.
+		The function initialized with the value min=$1 (the first element's value in the array), then it compares it with every element in the series. If the element is smaller
+		than the variable's "min" value, max gets the same element value.
+
+* AVERAGE func.:In this function we add the whole elements of the array to the "average" variable using for loop, then its divided by the the number of elements in the array.
+
+* NUMBEROFELEMENTS func. : This function basically returns ( echoes ) the "$#" value which holds the numbers of elements in the array.
+
+* SUM function: This function is initialized with sum=0, using for loop it adds every elements in the array to the "sum" value. At the end we get the whole sum of the array in "sum" value
